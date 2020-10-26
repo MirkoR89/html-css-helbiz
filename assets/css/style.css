@@ -3,12 +3,16 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.mr-5 {
-  margin-right: 5px;
+.mr-10 {
+  margin-right: 10px;
 }
 
-.mr-top-30px {
-  margin-top: 30px;
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mr-top-50 {
+  margin-top: 50px;
 }
 /* /utility classes */
 
@@ -94,6 +98,7 @@ nav a {
 .models .card {
   background-color: #fafafa;
   text-align: center;
+  margin: 0 10px;
 }
 
 .models .card img {
@@ -105,10 +110,30 @@ nav a {
 }
 
 .card > a, .card > p, .card > img  {
-  padding: 10px;
+  padding: 10px 0;
 }
 
 .card > a {
   display: block;
 }
 /* /section models */
+
+/* section phone */
+.bg-phone {
+  position: relative;
+  background-image: url("../img/bg_models.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+}
+
+.phone img {
+  max-height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+}
+/* /section phone */
+
+/* section info */
