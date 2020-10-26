@@ -3,8 +3,12 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.mr-20 {
-  margin-right: 20px;
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mr-top-30px {
+  margin-top: 30px;
 }
 /* /utility classes */
 
@@ -82,7 +86,29 @@ nav a {
   width: 150px;
 }
 /* /hero site */
-
-
-
 /* header site */
+
+/* main site */
+
+/* section models */
+.models .card {
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.models .card img {
+  max-width: 300px;
+}
+
+.models .card img:last-child {
+  max-height: 300px;
+}
+
+.card > a, .card > p, .card > img  {
+  padding: 10px;
+}
+
+.card > a {
+  display: block;
+}
+/* /section models */
