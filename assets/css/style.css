@@ -1,0 +1,88 @@
+/* utility classes */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+/* /utility classes */
+
+/* header site */
+header {
+  position: relative;
+  background-image: url("../img/hero_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  color: white;
+}
+
+.layover {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+header a {
+  color: white;
+}
+/* nav site */
+nav {
+  height: 80px;
+  line-height: 80px;
+}
+
+.list-inline {
+  text-align: right;
+}
+
+.list-inline li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+nav a {
+  padding: 0 10px;
+}
+
+.header-menu, .header-langs {
+  font-size: 0.55rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header-langs li:not(last-child) a {
+  border-right: 1px solid white;
+}
+/* /nav site */
+
+/* hero site */
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 2em;
+}
+
+.hero-content p {
+  margin: 20px 0 30px 0;
+}
+
+.hero-content img {
+  width: 150px;
+}
+/* /hero site */
+
+
+
+/* header site */
